@@ -128,10 +128,6 @@
 	cursor:pointer;
 }
 
-#buttonPencil{
-	background-image:url('pencil.jpg');
-}
-
 @media all and (max-width:1150px){
 	*{
 		margin-top:-50px;
@@ -163,7 +159,9 @@
 	}
 	
 	.pencil{
-		background:navajowhite;
+		/*background:navajowhite;*/
+		background-image:url('pencil.jpg');
+
 	}
 	
 	.eraser{
